@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Skyline, desarrollo de software a medida">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0a12"/><stop offset="1" stop-color="#1a1030"/>
+    </linearGradient>
+    <linearGradient id="marca" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c084fc"/><stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.55"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .t1{font:700 64px 'Segoe UI',Arial,sans-serif;fill:url(#marca)}
+      .t2{font:500 24px 'Segoe UI',Arial,sans-serif;fill:#d8d4ec}
+      .t3{font:500 17px 'Consolas','Courier New',monospace;fill:#8b86a8}
+      .orb{transform-origin:990px 130px;animation:gira 24s linear infinite}
+      .orb2{transform-origin:990px 130px;animation:gira 38s linear infinite reverse}
+      .estrella{animation:brilla 3s ease-in-out infinite}
+      @keyframes gira{to{transform:rotate(360deg)}}
+      @keyframes brilla{0%,100%{opacity:.25}50%{opacity:1}}
+    </style>
+  </defs>
+  <rect width="1200" height="260" rx="14" fill="url(#fondo)"/>
+  <circle cx="990" cy="130" r="150" fill="url(#halo)"/>
+  <g fill="none" stroke="#a855f7" stroke-opacity=".45">
+    <circle cx="990" cy="130" r="48"/><circle cx="990" cy="130" r="82"/><circle cx="990" cy="130" r="116"/>
+  </g>
+  <circle cx="990" cy="130" r="14" fill="#f5f3ff"/>
+  <g class="orb"><circle cx="1038" cy="130" r="6" fill="#c084fc"/><circle cx="908" cy="130" r="5" fill="#67e8f9"/></g>
+  <g class="orb2"><circle cx="990" cy="14" r="6" fill="#f472b6"/><circle cx="1106" cy="130" r="5" fill="#facc15"/></g>
+  <g fill="#fff">
+    <circle class="estrella" cx="640" cy="40" r="1.6"/><circle class="estrella" cx="720" cy="210" r="1.4" style="animation-delay:1s"/>
+    <circle class="estrella" cx="560" cy="150" r="1.2" style="animation-delay:2s"/><circle class="estrella" cx="820" cy="60" r="1.5" style="animation-delay:.5s"/>
+  </g>
+  <text class="t3" x="60" y="70">$ whoami</text>
+  <text class="t1" x="60" y="140">Skyline</text>
+  <text class="t2" x="62" y="182">Software a medida para tu negocio</text>
+  <text class="t3" x="62" y="218">Shopify · SaaS · dashboards · automatizaciones · bots · ERP</text>
+</svg>

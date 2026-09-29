@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-label="Terminal con el perfil de Skyline">
+  <defs>
+    <style>
+      .f{font:15px 'Consolas','Courier New',monospace}
+      .p{fill:#c084fc}.k{fill:#67e8f9}.v{fill:#e7e3f7}.c{fill:#7c7799}.g{fill:#86efac}
+      .l{opacity:0;animation:sale .01s forwards}
+      .l1{animation-delay:.4s}.l2{animation-delay:1.1s}.l3{animation-delay:1.5s}.l4{animation-delay:1.9s}.l5{animation-delay:2.3s}.l6{animation-delay:2.7s}.l7{animation-delay:3.1s}.l8{animation-delay:3.6s}
+      .cur{animation:parp 1s steps(1) infinite}
+      @keyframes sale{to{opacity:1}} @keyframes parp{50%{opacity:0}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="898" height="328" rx="12" fill="#0d0b16" stroke="#3b2f63"/>
+  <rect x="1" y="1" width="898" height="34" rx="12" fill="#17132a"/>
+  <circle cx="24" cy="18" r="6" fill="#ff5f57"/><circle cx="46" cy="18" r="6" fill="#febc2e"/><circle cx="68" cy="18" r="6" fill="#28c840"/>
+  <text class="f c" x="330" y="23">skyline@erevorn: ~/perfil</text>
+  <g class="f">
+    <g class="l l1"><text x="24" y="66"><tspan class="p">skyline@erevorn</tspan><tspan class="v">:~$ </tspan><tspan class="k">cat perfil.yaml</tspan></text></g>
+    <g class="l l2"><text x="24" y="100"><tspan class="k">nombre:</tspan><tspan class="v"> Skyline</tspan></text></g>
+    <g class="l l3"><text x="24" y="124"><tspan class="k">marca:</tspan><tspan class="v"> Erevorn (erevorn.com)</tspan></text></g>
+    <g class="l l4"><text x="24" y="148"><tspan class="k">ubicacion:</tspan><tspan class="v"> Lima, Perú</tspan></text></g>
+    <g class="l l5"><text x="24" y="172"><tspan class="k">hago:</tspan><tspan class="v"> tiendas Shopify, SaaS, dashboards, bots y automatizaciones</tspan></text></g>
+    <g class="l l6"><text x="24" y="196"><tspan class="k">stack:</tspan><tspan class="v"> Next.js · TypeScript · Node · PostgreSQL · Supabase · Liquid</tspan></text></g>
+    <g class="l l7"><text x="24" y="220"><tspan class="k">portafolio:</tspan><tspan class="g"> https://work.erevorn.com</tspan></text></g>
+    <g class="l l8"><text x="24" y="264"><tspan class="p">skyline@erevorn</tspan><tspan class="v">:~$ </tspan><tspan class="cur v">▌</tspan></text></g>
+  </g>
+</svg>
