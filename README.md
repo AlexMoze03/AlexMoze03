@@ -32,8 +32,6 @@
 
 ## `$ cat stack.yaml`
 
-Solo lo que uso de verdad, ordenado por para qué sirve.
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
@@ -90,18 +88,6 @@ Solo lo que uso de verdad, ordenado por para qué sirve.
     </td>
   </tr>
 </table>
-
----
-
-## `$ git log --since="1 year"`
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/actividad-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/actividad-light.svg">
-    <img src="assets/actividad-dark.svg" width="900" alt="Calendario de contribuciones del último año">
-  </picture>
-</p>
 
 ---
 

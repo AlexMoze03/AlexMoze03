@@ -32,12 +32,12 @@ function stack(t) {
     let x = izq;
     let fila = 0;
     for (const it of items) {
-      const w = Math.round(it.length * 8.2 + 30);
+      const tl = Math.round(it.length * 8.4); const w = tl + 46;
       if (x + w > ancho - margen) { x = izq; fila++; }
       const cy = y + fila * alto - 14;
       cuerpo += `<rect x="${x}" y="${cy}" width="${w}" height="30" rx="15" fill="${t.chip}" stroke="${color}" stroke-opacity=".7"/>` +
         `<circle cx="${x + 15}" cy="${cy + 15}" r="4.5" fill="${color}"/>` +
-        `<text x="${x + 27}" y="${cy + 20}" font-size="14" fill="${t.texto}">${esc(it)}</text>`;
+        `<text x="${x + 29}" y="${cy + 20}" font-size="14" fill="${t.texto}" textLength="${tl}" lengthAdjust="spacingAndGlyphs">${esc(it)}</text>`;
       x += w + 10;
     }
     y += (fila + 1) * alto + 12;
@@ -79,6 +79,4 @@ function calendario() {
 }
 
 for (const [nombre, t] of Object.entries(TEMAS)) writeFileSync(join(salida, `stack-${nombre}.svg`), stack(t));
-const { dias, total } = calendario();
-for (const [nombre, t] of Object.entries(TEMAS)) writeFileSync(join(salida, `actividad-${nombre}.svg`), actividad(t, dias, total));
-console.log(`Listo: stack y actividad (${total} contribuciones, ${dias.length} días).`);
+console.log("Listo: stack");
