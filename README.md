@@ -32,42 +32,74 @@
 
 ## `$ cat stack.yaml`
 
-<div align="center">
+Solo lo que uso de verdad, ordenado por para qué sirve.
 
-| | |
-|---|---|
-| **Aplicaciones web** | <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,nodejs,tailwind,html,css" alt="Next.js, React, TypeScript, JavaScript, Node.js, Tailwind, HTML y CSS"> |
-| **Datos** | <img src="https://skillicons.dev/icons?i=postgres,supabase,prisma" alt="PostgreSQL, Supabase y Prisma"> |
-| **Tiendas** | <img src="https://img.shields.io/badge/Shopify-Liquid%20%C2%B7%20Horizon%20%C2%B7%20Dawn-95bf47?style=flat-square&logo=shopify&logoColor=white" alt="Shopify"> |
-| **Servidor y entrega** | <img src="https://skillicons.dev/icons?i=linux,nginx,vercel,git,github,githubactions" alt="Linux, Nginx, Vercel, Git, GitHub y GitHub Actions"> |
-| **Automatización** | <img src="https://img.shields.io/badge/n8n-flujos-ea4b71?style=flat-square" alt="n8n"> <img src="https://img.shields.io/badge/Google%20Apps%20Script-Sheets%20%C2%B7%20Forms-4285f4?style=flat-square&logo=google&logoColor=white" alt="Google Apps Script"> <img src="https://img.shields.io/badge/Bots-WhatsApp%20%C2%B7%20Telegram-25d366?style=flat-square" alt="Bots de WhatsApp y Telegram"> |
-
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+    <img src="assets/stack-dark.svg" width="900" alt="Tecnologías que uso: Next.js, React, TypeScript, PostgreSQL, Supabase, Shopify, Linux, Nginx, Vercel, n8n y más">
+  </picture>
+</p>
 
 ---
 
 ## `$ ls proyectos/`
 
-> Los repositorios de clientes son **privados**. Cada proyecto tiene su ficha en el portafolio, con capturas, recorrido y, cuando se puede, una **demo para probar en vivo**.
+> Los repositorios de clientes son **privados**. Cada proyecto tiene su ficha en el portafolio, con capturas y, cuando se puede, una **demo para probar en vivo**.
 
-| Proyecto | Qué resolvimos | Ficha |
-|---|---|---|
-| **Erevorn** | ERP modular en la nube: pedidos, inventario, facturación electrónica SUNAT, cobros con Culqi y bots | [erevorn.com](https://erevorn.com) |
-| **Selecto Barber Studio** | Web de reservas y tienda para una barbería de Lima, con panel del dueño | [Ver ficha y demo](https://work.erevorn.com/selecto-barber-studio) |
-| **Toast Agency** | Tienda Shopify con portafolio en vídeo y venta de productos digitales | [Ver ficha y demo](https://work.erevorn.com/toast-agency) |
-| **Soaki Swim** | Tienda Shopify con preventa por variante y colecciones automáticas | [Ver ficha y demo](https://work.erevorn.com/soaki-swim) |
-| **Tienda de intimidad** | Tienda Shopify con verificación de edad y cobro por Yape | [Ver ficha y demo](https://work.erevorn.com/tienda-de-intimidad) |
-| **Florelima Atelier** | Sistema de pedidos con formulario, hoja de cálculo y tablero | [Ver ficha y demo](https://work.erevorn.com/florelima-atelier) |
+<table>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="https://erevorn.com"><img src="assets/erevorn-card.svg" width="290" alt="Erevorn"></a><br>
+      <b>Erevorn</b><br>
+      <sub>ERP modular en la nube: pedidos, inventario, facturación SUNAT, cobros y bots</sub><br>
+      <a href="https://erevorn.com">Ir a erevorn.com</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://work.erevorn.com/selecto-barber-studio"><img src="https://work.erevorn.com/projects/selecto-barber-studio/1.webp" width="290" alt="Selecto Barber Studio"></a><br>
+      <b>Selecto Barber Studio</b><br>
+      <sub>Reservas y tienda para una barbería de Lima, con panel del dueño</sub><br>
+      <a href="https://work.erevorn.com/selecto-barber-studio">Ver ficha y demo</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://work.erevorn.com/toast-agency"><img src="https://work.erevorn.com/projects/toast-agency/1.webp" width="290" alt="Toast Agency"></a><br>
+      <b>Toast Agency</b><br>
+      <sub>Tienda Shopify con portafolio en vídeo y productos digitales</sub><br>
+      <a href="https://work.erevorn.com/toast-agency">Ver ficha y demo</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="https://work.erevorn.com/soaki-swim"><img src="https://work.erevorn.com/projects/soaki-swim/1.webp" width="290" alt="Soaki Swim"></a><br>
+      <b>Soaki Swim</b><br>
+      <sub>Tienda Shopify con preventa por variante y colecciones automáticas</sub><br>
+      <a href="https://work.erevorn.com/soaki-swim">Ver ficha y demo</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://work.erevorn.com/tienda-de-intimidad"><img src="https://work.erevorn.com/projects/tienda-de-intimidad/1.webp" width="290" alt="Tienda de intimidad"></a><br>
+      <b>Tienda de intimidad</b><br>
+      <sub>Tienda Shopify con verificación de edad y cobro por Yape</sub><br>
+      <a href="https://work.erevorn.com/tienda-de-intimidad">Ver ficha y demo</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://work.erevorn.com/florelima-atelier"><img src="https://work.erevorn.com/projects/florelima-atelier/1.webp" width="290" alt="Florelima Atelier"></a><br>
+      <b>Florelima Atelier</b><br>
+      <sub>Sistema de pedidos: formulario, hoja de cálculo y tablero</sub><br>
+      <a href="https://work.erevorn.com/florelima-atelier">Ver ficha y demo</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## `$ git log --graph --contributions`
+## `$ git log --since="1 year"`
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlexMoze03/AlexMoze03/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AlexMoze03/AlexMoze03/output/snake.svg">
-    <img alt="Serpiente comiéndose mis contribuciones" src="https://raw.githubusercontent.com/AlexMoze03/AlexMoze03/output/snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/actividad-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/actividad-light.svg">
+    <img src="assets/actividad-dark.svg" width="900" alt="Calendario de contribuciones del último año">
   </picture>
 </p>
 
